@@ -1,0 +1,60 @@
+.fi {
+  line-height: .5;
+}
+
+.form-control, .form-select {
+  font-size: 13px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.btn {
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: .65rem;
+  padding-bottom: .65rem;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 16px;
+  border-radius: 50rem;
+  background-color: #fff;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.swipper-container {
+  overflow: hidden;
+}
+
+.section-header {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 480px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem 1rem;
+  background-color: #fff;
+  transform: translateX(-50%);
+}
+
+.has-bottom-bar {
+  padding-bottom: 70px;
+}

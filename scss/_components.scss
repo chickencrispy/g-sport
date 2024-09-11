@@ -1,0 +1,143 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: .5rem 1rem;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+
+.main-hero {
+  .swiper-slide {
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
+
+.main-categories {
+  padding: 1rem;
+
+  .categories-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem .5rem;
+    font-size: 12px;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: inherit;
+
+    .fi {
+      font-size: 1.25rem;
+      margin-bottom: .75rem;
+    }
+  }
+}
+
+.main-booking {
+  .booking-items {
+    display: flex;
+    padding: .75rem;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: inherit;
+
+    .details {
+      margin-left: 1rem;
+      font-size: 12px;
+
+      h6 {
+        margin-bottom: .5rem;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.main-recommended {
+  .recommended-items {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+
+    img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .overlay-info {
+      display: flex;
+      flex-direction: column;
+      padding: .5rem 1rem;
+      font-size: 13px;
+      flex-grow: 1;
+
+      h6 {
+        font-size: 14px;
+        margin-bottom: auto;
+      }
+    }
+  }
+}
+
+.booking-form {
+  padding: 1rem;
+
+  .form-group {
+    label {
+      margin-bottom: .25rem;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}
+
+.payment-form {
+  padding: 1rem;
+
+  h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+
+  .label-selection {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .75rem;
+    margin-bottom: .5rem;
+    font-size: 13px;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 6px;
+  }
+
+  .form-group {
+    label {
+      margin-bottom: .25rem;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}

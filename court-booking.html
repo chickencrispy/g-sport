@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Court Rental App</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/assets/css/uicons-rounded.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="app-wrapper has-bottom-bar">
+      <div class="app-header">
+        <h1>G-Sport</h1>
+        <button class="btn btn-icon"><i class="fi fi-rr-bell"></i></button>
+      </div>
+
+      <section class="court-info">
+        <div class="court-banner">
+          <img src="https://img.freepik.com/premium-photo/courts-playing-tennis-badminton_274689-11024.jpg?semt=ais_hybrid" alt="">
+        </div>
+
+        <div class="court-details">
+          <h5>Garuda Badminton Hall Batam Center</h5>
+          <p class="mb-0">Rp 50.000 per hour</p>
+        </div>
+      </section>
+
+      <form action="" class="booking-form">
+        <div class="form-group mb-2">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group mb-4">
+          <label for="phone">Phone Number</label>
+          <input type="phone" class="form-control" id="phone">
+        </div>
+
+        <div class="form-group mb-2">
+          <label for="date">Select Date</label>
+          <input type="date" class="form-control" id="date">
+        </div>
+
+        <div class="d-flex gap-3 mb-2">
+          <div class="form-group flex-fill">
+            <label for="time">Select Time</label>
+            <input type="time" class="form-control" id="time" step="3600">
+          </div>
+
+          <div class="form-group flex-fill">
+            <label for="time">Duration</label>
+            <select name="duration" id="duration" class="form-select">
+              <option value="1">1 hour</option>
+              <option value="2">2 hours</option>
+              <option value="3">3 hours</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <label for="field">Select Field</label>
+            <select name="field" id="field" class="form-select">
+              <option value="1">Field 1</option>
+              <option value="2">Field 2</option>
+              <option value="3">Field 3</option>
+            </select>
+          </div>
+      </form>
+    </div>
+
+    <div class="bottom-navbar">
+      <div class="d-grid flex-fill">
+        <button class="btn btn-primary" onclick="javascript:window.location.href='payment.html'">Payment</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/swiper-bundle.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
