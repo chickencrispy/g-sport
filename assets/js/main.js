@@ -1,6 +1,8 @@
 const mainHeroSwiper = new Swiper(".swiper-main-hero", {
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 1.25,
+  spaceBetween: -12,
+  centeredSlides: true,
   autoplay: {
     delay: 5000,
   },
