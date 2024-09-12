@@ -19,7 +19,7 @@
 
       <section class="main-hero">
         <div class="py-3">
-          <div class="swipper-container swiper-main-hero">
+          <div class="swiper-container swiper-main-hero">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img src="https://img.freepik.com/free-photo/close-up-tennis-racket-balls_23-2148218676.jpg?semt=ais_hybrid" alt="">
@@ -36,7 +36,9 @@
       </section>
 
       <section class="main-categories">
-        <h6 class="section-header">Play Your Game</h6>
+        <div class="section-header">
+          <h6>Play Your Game</h6>
+        </div>
 
         <div class="grid-4 gap-2">
           <a href="#" class="categories-items shadow-sm">
@@ -58,60 +60,69 @@
         </div>
       </section>
 
-      <section class="main-booking">
+      <section class="main-venues">
         <div class="p-3">
-          <h6 class="section-header">Your Booking</h6>
-          <div class="swipper-container swiper-booking">
+          <div class="section-header">
+            <h6>Recommended Venues</h6>
+          </div>
+
+          <div class="swiper-container swiper-main-venues">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="booking-details.html" class="booking-items">
-                  <i class="fi fi-rr-tennis"></i>
-                  <div class="details">
+              <a href="court.html" class="swiper-slide">
+                <img src="./assets/img/kda1.jpeg" alt="" class="img-fluid">
+                <div class="content">
+                  <div class="flex-fill">
                     <h6>KDA Indoor Tennis</h6>
-                    <div>Sat, 17 Aug &bull; 19:00 - 21:00</div>
+                    <div>Batam Center</div>
                   </div>
-                </a>
-              </div>
+                  <div class="text-end">
+                    <h6>Rp 50.000</h6>
+                    <div>per hour</div>
+                  </div>
+                </div>
+              </a>
+              <a href="court.html" class="swiper-slide">
+                <img src="./assets/img/kda2.jpeg" alt="" class="img-fluid">
+                <div class="content">
+                  <div class="flex-fill">
+                    <h6>KDA Indoor Tennis</h6>
+                    <div>Batam Center</div>
+                  </div>
+                  <div class="text-end">
+                    <h6>Rp 50.000</h6>
+                    <div>per hour</div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="main-recommended">
+      <section class="book-history">
         <div class="p-3">
-          <h6 class="section-header">Recommended Court</h6>
+          <div class="section-header">
+            <h6>Booking History</h6>
+          </div>
 
           <ul class="list-group list-group-flush">
             <li class="list-group-item px-0">
-              <a href="court.html" class="recommended-items">
-                <img src="./assets/img/kda1.jpeg" alt="">
-                <div class="overlay-info">
-                  <h6 class="fw-bold">KDA Indoor Tennis</h6>
-                  <div class="info-rating">
-                    <span>4,5</span>
-                    <div class="rating-container">
-                      <div class="star-rating" style="width:calc(calc(12px + 2px) * 4 + calc(12px / 2) * 1)"></div>
+              <div class="row g-3">
+                <div class="col-3">
+                  <img src="https://img.freepik.com/free-photo/close-up-tennis-racket-balls_23-2148218676.jpg?w=2000" alt="" class="img-fluid">
+                </div>
+                <div class="col-9">
+                  <div class="d-flex flex-column h-100">
+                    <h6>KDA Indoor Tennis</h6>
+                    <div>
+                      <div>
+                        12 September 2024 &bull; 16.00
+                      </div>
+                      <div class="badge bg-primary-subtle text-primary">Booked</div>
                     </div>
                   </div>
-                  <div class="info-price">Rp <strong>100.000</strong> per hour</div>
                 </div>
-              </a>
-            </li>
-
-            <li class="list-group-item px-0">
-              <a href="court.html" class="recommended-items">
-                <img src="./assets/img/kda2.jpeg" alt="">
-                <div class="overlay-info">
-                  <h6 class="fw-bold">KDA Indoor Tennis</h6>
-                  <div class="info-rating">
-                    <span>4,5</span>
-                    <div class="rating-container">
-                      <div class="star-rating" style="width:calc(calc(12px + 2px) * 4 + calc(12px / 2) * 1)"></div>
-                    </div>
-                  </div>
-                  <div class="info-price">Rp <strong>100.000</strong> per hour</div>
-                </div>
-              </a>
+              </div>
             </li>
           </ul>
         </div>

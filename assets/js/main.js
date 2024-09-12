@@ -12,3 +12,8 @@ const reservationSwiper = new Swiper(".swiper-booking", {
   slidesPerView: 1.7,
   spaceBetween: 16,
 });
+
+const venuesSwiper = new Swiper(".swiper-main-venues", {
+  slidesPerView: 1.25,
+  spaceBetween: 16,
+})
