@@ -111,7 +111,27 @@
 
       h6 {
         font-size: 14px;
-        margin-bottom: auto;
+        margin-bottom: 2px;
+      }
+
+      .info-rating {
+        display: flex;
+        align-items: center;
+        gap: .25rem;
+        margin-bottom: .5rem;
+        font-size: 12px;
+        color: #545D7E;
+      }
+
+      .info-price {
+        margin-top: auto;
+        color: #545D7E;
+
+        strong {
+          font-size: 14px;
+          font-weight: 700;
+          color: #171717;
+        }
       }
     }
   }
@@ -161,5 +181,22 @@
       font-size: 12px;
       font-weight: 500;
     }
+  }
+}
+
+.rating-container {
+  position: relative;
+  display: inline-block;
+  width: 68px;
+  height: 11.4px;
+  background-image: url(../img/star-muted.svg);
+  background-repeat: repeat-x;
+  overflow: hidden;
+
+  .star-rating {
+    display: block;
+    height: 11.4px;
+    background-image: url(../img/star-filled.svg);
+    background-repeat: repeat-x;
   }
 }
