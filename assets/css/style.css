@@ -137,6 +137,36 @@ body {
   color: #fff;
 }
 
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0.5rem;
+  background-color: #ef3028;
+  color: #fff;
+}
+.page-header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.page-header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+.page-header .btn svg {
+  height: 1rem;
+}
+
 .main-hero .swiper-slide {
   transform: scale(0.85);
   transition: all 200ms linear;
@@ -190,7 +220,9 @@ body {
   right: 0.5rem;
   padding: 0.5rem;
   font-size: 12px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6666666667);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   border-radius: 0.5rem;
   display: flex;
   color: #5E5E5E;
@@ -206,6 +238,10 @@ body {
   font-size: 13px;
   color: #5E5E5E;
 }
+.book-history .list-group-item a {
+  text-decoration: none;
+  color: inherit;
+}
 .book-history .list-group-item img {
   width: 100%;
   height: 75px;
@@ -216,7 +252,7 @@ body {
 .book-history .list-group-item h6 {
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: auto;
+  margin-bottom: 2px;
   color: #171717;
 }
 .book-history .list-group-item .badge {
@@ -304,6 +340,15 @@ body {
   font-size: 16px;
   border-radius: 50rem;
   background-color: #fff;
+}
+
+.btn-accent {
+  background-color: #ef3028;
+  color: #fff;
+}
+.btn-accent:hover {
+  background-color: #c01a1a;
+  color: #fff;
 }
 
 .grid-4 {

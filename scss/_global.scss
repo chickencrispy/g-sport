@@ -26,6 +26,16 @@
   background-color: #fff;
 }
 
+.btn-accent {
+  background-color: #ef3028;
+  color: #fff;
+
+  &:hover {
+    background-color: #c01a1a;
+    color: #fff;
+  }
+}
+
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
