@@ -161,4 +161,66 @@ body {
 
 .booking-info {
   padding: 1rem;
+
+  .booking-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    h6 {
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+
+    .status {
+      font-size: 12px;
+      padding: .375rem 1rem;
+      border-radius: .5rem;
+
+      &.success {
+        background-color: rgba(var(--bs-primary-rgb), .15);
+        color: var(--bs-primary);
+      }
+
+      &.warning {
+        background-color: rgba(var(--bs-warning-rgb), .15);
+        color: var(--bs-warning);
+      }
+
+      &.danger {
+        background-color: rgba(var(--bs-danger-rgb), .15);
+        color: var(--bs-danger);
+      }
+    }
+  }
+
+  .list-group-item {
+    font-size: 13px;
+    background-color: inherit;
+    padding-inline: 0;
+
+    &.flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .payment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    h6 {
+      margin-bottom: 0;
+    }
+
+    img {
+      height: 20px;
+    }
+  }
 }
