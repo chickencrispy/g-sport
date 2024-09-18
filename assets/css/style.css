@@ -96,6 +96,10 @@ body {
 .payment-info {
   padding: 1rem;
 }
+.payment-info h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
 .payment-info h6 {
   font-size: 14px;
   font-weight: 700;
@@ -106,6 +110,29 @@ body {
 .payment-info table td {
   padding: 0.25rem 0;
   font-size: 13px;
+}
+.payment-info .list-group-item {
+  font-size: 13px;
+  background-color: inherit;
+  padding-inline: 0;
+}
+.payment-info .list-group-item.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment-info .payment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.payment-info .payment-header h6 {
+  margin-bottom: 0;
+}
+.payment-info .payment-header img {
+  height: 20px;
 }
 
 .booking-info {
