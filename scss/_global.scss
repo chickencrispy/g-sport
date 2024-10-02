@@ -76,3 +76,10 @@
 .has-bottom-bar {
   padding-bottom: 70px;
 }
+
+.text-truncate-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-clamp: 2;
+}
